@@ -26,7 +26,7 @@ body {
     position:absolute;
     top:10px;
     right:10px;
-    background-color: blue, purple;
+    background-color: blue;
 }
 
 .signUpButtonStylingClass:hover {
@@ -34,5 +34,5 @@ body {
     position:absolute;
     right:10px;
     top:10px;
-    transform:rotateX('360');
+    transform: rotate(360);
 }
