@@ -1,11 +1,8 @@
 body {
-    background-color:black;
+    background-color:rgb(207, 199, 199);
 }
 
 #h2FrontEnd:hover {
-    color: white;
-    transition:3s;
-
     display:flex;
     position:absolute;
     top:10px;
