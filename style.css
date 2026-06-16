@@ -34,8 +34,33 @@ body {
     display:flex;
     position:absolute;
     top:5px;
-    right:125px;
+    right:200px;
     background-color:black;
     color:white;
     border-radius:20px;
+}
+
+    @keyframes rGB {
+        0% {
+            color:white;
+        }
+
+        25% {
+           color:yellow; 
+        }
+
+        50% {
+            color:blue;
+        }
+
+        75% {
+            color:red;
+        }
+
+        100% {
+            color:purple;
+        }
+    }
+#signUpMainPage:hover {
+    animation:rGB 2s infinite;
 }
