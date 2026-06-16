@@ -1,3 +1,3 @@
 function signUpButtonFunctionJS() {
-    window.location.href = 'login.html'
+    window.location.href = 'https://wowe.vercel.app/login.html'
 }
