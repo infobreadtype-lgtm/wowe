@@ -24,7 +24,7 @@ body {
     display:flex;
     position:absolute;
     right:50px;
-    top:25px;
+    top:10px;
     color:white;
     background-color:black;
 }
@@ -32,6 +32,9 @@ body {
 #signUpMainPage {
     display:flex;
     position:absolute;
-    top:25px;
+    top:10px;
     right:100px;
+    background-color:black;
+    color:white;
+
 }
