@@ -7,7 +7,10 @@ body {
     position:absolute;
     top:30px;
     left:500px;
-    background-color:black
+    background-color:black;
+    border-radius:20px;
+    width:800px;
+    height:30px;
 }
 
 #woweTitle {
@@ -24,4 +27,11 @@ body {
     top:25px;
     color:white;
     background-color:black;
+}
+
+#signUpMainPage {
+    display:flex;
+    position:absolute;
+    top:25px;
+    right:100px;
 }
