@@ -26,9 +26,9 @@ body {
     position:absolute;
     top:10px;
     right:10px;
-    background-color: blue;
+    background-color: rgb(209, 37, 37);
     font-size: 25px;
-    border-radius:20px;
+    border-radius:50px;
 }
 
 .signUpButtonStylingClass:hover {
@@ -38,5 +38,5 @@ body {
     top:10px;
     font-size:50px;
     font-weight:bolder;
-    
+    background-color:color-mix(in hsl increasing hue, purple 50%, blue 50%)
 }
