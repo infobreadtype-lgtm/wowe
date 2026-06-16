@@ -62,7 +62,7 @@ body {
         }
     }
 #signUpMainPage:hover {
-    animation:rGB 20s infinite;
+    animation:rGBSignUp 20s infinite;
 }
 
 @keyframes rGBLogIn {
