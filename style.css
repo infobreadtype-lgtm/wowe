@@ -86,8 +86,22 @@ body {
 #passWord {
     display:flex;
     position:absolute;
-    top:300px;
+    top:100px;
     left:700px;
     border-radius:50px;
     border-color:black;
+}
+
+#userNameText {
+    display:flex;
+    position:absolute;
+    top:150px;
+    left:10px;
+}
+
+#passWordText {
+    display:flex;
+    position:absolute;
+    top:100px;
+    left:10px;
 }
