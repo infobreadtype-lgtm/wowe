@@ -16,7 +16,7 @@ body {
 #woweTitle {
     color:white;
     font-weight:bolder;
-    top:10px;
+    top:5px;
     left:220px;
 }
 
@@ -24,17 +24,18 @@ body {
     display:flex;
     position:absolute;
     right:50px;
-    top:10px;
+    top:5px;
     color:white;
     background-color:black;
+    border-radius:20px;
 }
 
 #signUpMainPage {
     display:flex;
     position:absolute;
     top:10px;
-    right:100px;
+    right:200px;
     background-color:black;
     color:white;
-
+    border-radius:20px;
 }
