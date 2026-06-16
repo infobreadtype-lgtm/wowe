@@ -2,6 +2,15 @@ body {
     background-color:black;
 }
 
+#h2FrontEnd {
+    color: white;
+    display:flex;
+    position:absolute;
+    top:10px;
+    left:600px;
+    font-weight:bolder;
+}
+
 #h2FrontEnd:hover {
     display:flex;
     position:absolute;
