@@ -6,7 +6,7 @@ body {
     display:flex;
     position:absolute;
     top:10px;
-    left:850px;
+    left:700px;
     font-weight:bold;
     color:white;
 }
@@ -15,8 +15,12 @@ body {
     display:flex;
     position:absolute;
     top:10px;
-    left:850px;
+    left:600px;
     font-weight:bolder;
     color: red;
     animation: forwards;
+}
+
+.signUpButtonStylingClass {
+    background-color: color-mix(in srgb, blue 50, purple 50);
 }
