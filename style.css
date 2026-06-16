@@ -9,5 +9,5 @@ body {
     left:600px;
     font-weight:bolder;
     color: red;
-    animation:backwards;
+    transform-style: preserve-3d;
 }
