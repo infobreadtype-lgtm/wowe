@@ -46,7 +46,7 @@ body {
         }
 
         25% {
-           background-color:yellow; 
+           background-color:rgb(92, 201, 41); 
         }
 
         50% {
@@ -62,5 +62,5 @@ body {
         }
     }
 #signUpMainPage:hover {
-    animation:rGB 15s infinite;
+    animation:rGB 5s infinite;
 }
