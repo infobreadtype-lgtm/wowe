@@ -86,7 +86,7 @@ body {
 #passWord {
     display:flex;
     position:absolute;
-    top:270px;
+    top:240px;
     left:600px;
     border-radius:50px;
     border-color:black;
