@@ -40,7 +40,7 @@ body {
     border-radius:20px;
 }
 
-    @keyframes rGB {
+    @keyframes rGBSignUp {
         0% {
             background-color:white;
         }
@@ -63,4 +63,30 @@ body {
     }
 #signUpMainPage:hover {
     animation:rGB 5s infinite;
+}
+
+@keyframes rGBLogIn {
+    0% {
+        background-color:purple;
+    }
+
+    25% {
+        background-color:black;
+    }
+
+    50% {
+        background-color:chocolate
+    }
+
+    75% {
+        background-color:bisque
+    }
+
+    100% {
+        background-color:azure
+    }
+}
+
+#loginMainPage:hover {
+    animation:rGBLogIn 20s infinite;
 }
