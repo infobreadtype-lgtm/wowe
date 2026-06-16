@@ -22,5 +22,17 @@ body {
 }
 
 .signUpButtonStylingClass {
-    background-color: color-mix(in srgb, blue 50, purple 50);
+    display:flex;
+    position:absolute;
+    top:10px;
+    right:10px;
+    background-color: blue, purple;
+}
+
+.signUpButtonStylingClass:hover {
+    display:flex;
+    position:absolute;
+    right:10px;
+    top:10px;
+    transform:rotateX('360');
 }
