@@ -73,3 +73,21 @@ body {
     background-color:black;
     color: aqua;
 }
+
+#userName {
+    display:flex;
+    position:absolute;
+    top:300px;
+    left:600px;
+    border-radius:50px;
+    border-color:black;
+}
+
+#passWord {
+    display:flex;
+    position:absolute;
+    top:300px;
+    left:700px;
+    border-radius:50px;
+    border-color:black;
+}
