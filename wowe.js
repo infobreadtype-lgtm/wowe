@@ -1,8 +1,14 @@
 let logInDocs = document.getElementById("loginButtonInPage")
 
 let userIsLoggedIn = false
+let redirectTextAfterLogIn = document.getElementById("h2LoginForm")
+let userNameFnction = document.getElementById("userName").value
+let passWordFnction = document.getElementById("passWord").value
 
-
+function logInButtonOnclick() {
+    logInDocs.onclick = redirectTextAfterLogIn.innerText = 'Redirecting...';
+    logInDocs.onclick = window.location.href = 'index.html'
+}
 
 
 function loginRedirect() {
