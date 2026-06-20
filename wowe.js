@@ -7,6 +7,8 @@ let passWordFnction = document.getElementById("passWord").value
 
 function logInButtonOnclick() {
     logInDocs.onclick = redirectTextAfterLogIn.innerText = 'Redirecting...';
+    const fetchFromZeo = fetch('https://www.zeoworks.com')
+    console.log(fetchFromZeo)
     logInDocs.onclick = window.location.href = 'index.html'
 }
 
