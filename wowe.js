@@ -24,5 +24,13 @@ function signUpRedirect() {
 const loginBtnInPage = document.getElementById("loginButtonInPage")
 
 function redirectLoggedIn() {
+    fetch("https://db.com")
+    if(userNameFnction.value = "") {
+        alert("Please provide a valid username.")
+    }
+
+    if(passWordFnction.value = "") {
+        alert("Please provide a valid password.")
+    }
     window.location.href = 'index.html'
 }
