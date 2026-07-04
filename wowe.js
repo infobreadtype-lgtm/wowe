@@ -23,7 +23,6 @@ function signUpRedirect() {
 
 const loginBtnInPage = document.getElementById("loginButtonInPage")
 
-function loginBtn() {
-    loginBtnInPage.fetch = "https://db.com"
-    loginBtnInPage.onclick = window.location.href = 'index.html'
+function redirectLoggedIn() {
+    window.location.href = 'index.html'
 }
