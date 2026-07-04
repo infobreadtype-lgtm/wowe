@@ -21,3 +21,9 @@ function signUpRedirect() {
     window.location.href = 'https://wowe.vercel.app/signup.html'
 }
 
+const loginBtnInPage = document.getElementById("loginButtonInPage")
+
+function loginBtn() {
+    loginBtnInPage.fetch = "https://db.com"
+    loginBtnInPage.onclick = window.location.href = 'index.html'
+}
