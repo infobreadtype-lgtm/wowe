@@ -94,7 +94,7 @@ body {
 #ourPartnersMainPage {
     display:flex;
     position:absolute;
-    top:5px;
+    top:100px;
     left:900px;
     background-color:gray;
     color:white
