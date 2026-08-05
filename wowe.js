@@ -33,3 +33,11 @@ function redirectLoggedIn() {
     }
     window.location.href = 'index.html'
 }
+
+const ourPartnersPageFromHome = document.getElementById("ourPartnersMainPage")
+
+ourPartnersPageFromHome.addEventListener("click", ourPartnersRedirect)
+
+function ourPartnersRedirect() {
+    window.location.href = 'partners.html'
+}
