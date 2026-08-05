@@ -90,3 +90,10 @@ body {
 #loginMainPage:hover {
     animation:rGBLogIn 20s infinite;
 }
+
+#ourPartnersMainPage {
+    display:flex;
+    position:absolute;
+    top:5px;
+    left:900px;
+}
