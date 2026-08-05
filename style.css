@@ -96,4 +96,6 @@ body {
     position:absolute;
     top:5px;
     left:900px;
+    background-color:gray;
+    color:white
 }
