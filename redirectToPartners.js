@@ -1,4 +1,4 @@
-const gunsLolImagePartnersPage = document.getElementById("gunsDotLolImgPartners")
+
 
 const ourPartnersPageFromHome = document.getElementById("ourPartnersMainPage")
 
@@ -8,6 +8,7 @@ function ourPartnersRedirect() {
     window.location.href = 'https://wowe.vercel.app/partners.html'
 }
 
+const gunsLolImagePartnersPage = document.getElementById("gunsDotLolImgPartners")
 
 gunsDotLolImgPartners.addEventListener("click", redirectToGunsLolPartnersPage)
 
